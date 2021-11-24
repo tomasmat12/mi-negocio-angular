@@ -1,18 +1,19 @@
 <table class="table table-sm">
     <thead>
       <tr>
-        <th scope="col">Imagen</th>
-        <th scope="col">Nombre</th>
-        <th scope="col">Descripción</th>
-        <th scope="col">Precio</th> 
+        <th scope="col">Image</th>
+        <th scope="col">Name</th>
+        <th scope="col">Descriptión</th>
+        <th scope="col">Price</th>  
       </tr>
     </thead>
     <tbody>
-      <tr *ngFor="let producto of producto">
+      <tr *ngFor="let producto of producto" [ngClass]="{'clearance':producto.clearance}">
         <td><img [src]="producto.image" [alt]="producto.name"></td>
         <td>{{producto.name}}</td>
         <td>{{producto.description}}</td>
         <td>{{producto.price | currency:'ARS'}}</td>
+        
         
       </tr>
     </tbody>

@@ -3,5 +3,5 @@ export interface producto {
     description: string;
     price: number;
     image: string;
-    
+    clearance: boolean;
   }
