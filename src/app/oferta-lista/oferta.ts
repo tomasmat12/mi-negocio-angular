@@ -3,5 +3,4 @@ export interface oferta {
     description: string;
     price: number;
     image: string;
-    
-  }
+    }

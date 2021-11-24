@@ -10,7 +10,7 @@ export class OfertaListaComponent implements OnInit {
 
   oferta : oferta [] = [{
     name: "Sprite",
-    description: "Sprite 1,5L",
+    description: "Sprite 1,5L vencimiento: 30/11/2021",
     price: 150,
     image: "assets/sprite.png"
   }]

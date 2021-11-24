@@ -12,7 +12,7 @@
         <td><img [src]="oferta.image" [alt]="oferta.name"></td>
         <td>{{oferta.name}}</td>
         <td>{{oferta.description}}</td>
-        <td>{{oferta.price}}</td>
+        <td>{{oferta.price | currency:'ARS'}}</td>
         
       </tr>
     </tbody>
