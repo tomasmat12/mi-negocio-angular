@@ -1,4 +1,7 @@
 # AppMiNegocio
+En el terminal, posicionarce en una carpeta donde vamos a instalar el proyecto, hacer "git clone https://github.com/Manuminnig/app-mi-negocio-angular.git".
+
+Luego correr el comando "Yarn install"
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.0.3.
 
