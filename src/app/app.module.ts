@@ -5,7 +5,6 @@ import { HttpClientModule } from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { OfertaListaComponent } from './oferta-lista/oferta-lista.component';
 import { ProductosListaComponent } from './productos-lista/productos-lista.component';
 import { ProductosComponent } from './productos/productos.component';
 import { AboutUsComponent } from './about-us/about-us.component';
@@ -16,7 +15,6 @@ import { AboutUsComponent } from './about-us/about-us.component';
   declarations: [
     AppComponent,
     ProductosListaComponent,
-    OfertaListaComponent,
     ProductosComponent,
     AboutUsComponent
   ],
