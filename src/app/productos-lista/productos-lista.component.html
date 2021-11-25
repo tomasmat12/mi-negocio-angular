@@ -4,17 +4,19 @@
         <th scope="col">Image</th>
         <th scope="col">Name</th>
         <th scope="col">Descriptión</th>
-        <th scope="col">Price</th>  
+        <th scope="col">Price</th>
+        <th scope="col">Offer</th>  
       </tr>
     </thead>
     <tbody>
-      <tr *ngFor="let producto of producto" [ngClass]="{'clearance':producto.clearance}">
+      <tr *ngFor="let producto of producto"  [ngClass]="{'clearance':producto.clearance}">
         <td><img [src]="producto.image" [alt]="producto.name"></td>
         <td>{{producto.name}}</td>
         <td>{{producto.description}}</td>
-       <!-- <td>{{producto.price | currency:'ARS'}}</td>-->
-       <td>{{producto.price}}</td>
-        
+        <td>{{producto.price}}</td>
+        <td>{{producto.oferta.precio}}</td>
       </tr>
     </tbody>
   </table>
+
+
