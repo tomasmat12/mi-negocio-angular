@@ -25,4 +25,4 @@ jobs:
     - name: Build
       run: npm install
     - name : Test
-      run : npm test
+      run : npm test -- --watch=false --browsers=ChromeHeadless
