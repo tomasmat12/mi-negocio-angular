@@ -1,0 +1,18 @@
+#version: '3.3'
+#services:
+ # nest:
+#    build: . 
+#    entrypoint: ./node_modules/.bin/ng serve --host 0.0.0.0
+    #entrypoint: ng serve
+   
+#    ports:
+#      - '4200:4200'
+ #   volumes:
+ #     - .:/usr/src/app
+
+version: '3.3'
+services:
+  nest:
+    build: .
+    ports:
+      - '80:80'

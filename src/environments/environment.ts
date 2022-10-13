@@ -4,7 +4,8 @@
 
 export const environment = {
   production: false,
-  apiUrl: 'https://manuminnig-app.herokuapp.com/'
+  /*apiUrl: 'https://manuminnig-app.herokuapp.com/'*/
+  apiUrl: 'http://localhost:3000/'
 };
 
 /*
