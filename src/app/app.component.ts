@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'mi-neogcio-angular' ;
+  title = 'mi-negocio-angular' ;
   year = new Date(). getFullYear();
 }
 
