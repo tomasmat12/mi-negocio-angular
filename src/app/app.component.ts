@@ -7,6 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'mi-neogcio-angular' ;
-  
   year = new Date(). getFullYear();
 }
+
+
+//https://github.com/angular/angular-cli/issues/11145
