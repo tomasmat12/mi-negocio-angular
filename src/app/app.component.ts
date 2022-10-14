@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title(title: 'mi-negocio-angular') {
+  title(title: any ) {
     throw new Error('Method not implemented.');
   }
   year = new Date(). getFullYear();
