@@ -6,8 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title( title = 'mi-neogcio-angular' ) {
-    throw new Error('Method not implemented.');
-  }
+  title = 'mi-neogcio-angular' ;
+  
   year = new Date(). getFullYear();
 }
