@@ -6,8 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title(title: any) {
-    throw new Error('Method not implemented.');
-  }
+  title = 'mi-negocio-angular' ;
   year = new Date(). getFullYear();
 }
+
+
+//https://github.com/angular/angular-cli/issues/11145

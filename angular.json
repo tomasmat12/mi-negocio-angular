@@ -6,7 +6,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "app-mi-negocio": {
+    "mi-negocio-angular": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -23,7 +23,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/app-mi-negocio",
+            "outputPath": "dist/mi-negocio-angular",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -75,10 +75,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "app-mi-negocio:build:production"
+              "browserTarget": "mi-negocio-angular:build:production"
             },
             "development": {
-              "browserTarget": "app-mi-negocio:build:development"
+              "browserTarget": "mi-negocio-angular:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -86,7 +86,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "app-mi-negocio:build"
+            "browserTarget": "mi-negocio-angular:build"
           }
         },
         "test": {
@@ -110,5 +110,5 @@
       }
     }
   },
-  "defaultProject": "app-mi-negocio"
+  "defaultProject": "mi-negocio-angular"
 }

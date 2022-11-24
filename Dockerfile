@@ -33,5 +33,5 @@ RUN yarn install
 COPY . .
 RUN yarn run build
 FROM nginx:latest
-COPY --from=build /usr/src/app/dist/app-mi-negocio /usr/share/nginx/html
+COPY --from=build /usr/src/app/dist/mi-negocio-angular /usr/share/nginx/html
 EXPOSE 80
